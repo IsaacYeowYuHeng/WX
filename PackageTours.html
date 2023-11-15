@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <img src="Images/mr.worldwide.svg" >
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+<nav class="nav-link">
+<a href="HomePage.html" style="text-decoration:none" >Home</a> |
+<a href="PackageTours.html" style="text-decoration:underline" >Package Tours</a> |
+<a href="" style="text-decoration:none" >Rediscover Singapore</a> |
+<a href="" style="text-decoration:none" >Cruises</a> |
+<a href="ContactUs.html" style="text-decoration:none" >Contact Us</a> |
+</nav>
+
+<video width="100%" autoplay loop muted> 
+    <source src="pexels_videos_1906738 (1080p).mp4" type="video/mp4" style="width:100%"> 
+   </video>
+   <button class="package-tours-button">Package Tours</button>
+   <div class="package-tours-content hidden">
+   <section class="package-tours">
+    <div class="tour-box">
+        <h2>Japan Package Trip</h2>
+        <h4>Discover the Land of the Rising Sun with our Japan Exploration Adventure, a once-in-a-lifetime journey that will immerse you in the rich culture, history, and natural beauty of Japan. This meticulously crafted package offers an unforgettable experience that combines the serenity of ancient temples, the energy of modern cities, and the stunning landscapes that make Japan a true traveler's paradise. </h4>
+        <h2>Highlights of Your Japan Trip:</h2>
+        <h4>
+            Tokyo Wonderland: Begin your journey in the bustling metropolis of Tokyo. Explore the vibrant neighborhoods of Shinjuku, Shibuya, and Akihabara, and witness the seamless blend of tradition and innovation in this world-famous city.
+            <br>
+            Kyoto's Timeless Charm: Journey to Kyoto, a city frozen in time, where ancient temples, traditional tea houses, and enchanting geisha culture await. Visit iconic landmarks like Kinkaku-ji (Golden Pavilion) and Fushimi Inari Shrine.
+            <br>
+            Majestic Mount Fuji: Admire the breathtaking views of Mount Fuji, Japan's iconic peak. Capture picture-perfect moments at Lake Kawaguchi and explore the Fuji Five Lakes region.
+            Cherry Blossom Delight: Depending on the season, witness the mesmerizing beauty of cherry blossoms in full bloom, an experience that's synonymous with Japan.</h4>
+        <p>Price: $999.99</p>
+    </div>
+
+    <div class="tour-box">
+        <h2>New Zealand Package Trip</h2>
+        <h4>Escape to the pristine landscapes of New Zealand with our Natural Wonders Adventure. This incredible journey will take you through some of the world's most breathtaking scenery, where rugged mountains, crystal-clear lakes, and lush rainforests converge to create a paradise for nature lovers. Whether you're an adrenaline junkie seeking adventure or a serenity seeker in search of peace, New Zealand offers it all.</h4>
+        <h2>Highlights of Your New Zealand Trip</h2>
+        <h4>
+            Auckland to Queenstown: Start your adventure in Auckland, the "City of Sails," and make your way to Queenstown, the adventure capital of the world. Along the way, explore the diverse landscapes that define New Zealand.
+            <br>
+            Fiordland National Park: Cruise through the mesmerizing Milford Sound, one of the country's most iconic fjords. Witness cascading waterfalls, sheer cliffs, and wildlife in their natural habitat.
+            <br>
+            Rotorua's Geothermal Wonders: Discover Rotorua's unique geothermal landscape, where bubbling mud pools, colorful hot springs, and geysers paint a surreal picture of nature's wonders.
+        </h4>
+        <p>Price: $799.99</p>
+    </div>
+
+    <div class="tour-box">
+        <h2>Turkey Package Trip</h2>
+        <h4>Embark on a journey to the crossroads of Europe and Asia with our Turkey's Timeless Treasures Journey. Turkey offers an enchanting blend of ancient history, diverse cultures, and vibrant landscapes. Explore the captivating cities of Istanbul and Cappadocia, immerse yourself in the ruins of Ephesus, and relax along the stunning Turkish coastline.</h4>
+        <h2>Highlights of Your Turkey Trip</h2>
+        <h4>
+            Istanbul's Historic Charms: Start your journey in Istanbul, where the Bosphorus Bridge connects two continents. Visit the Hagia Sophia, the Blue Mosque, and the Grand Bazaar.            <br>
+            Fiordland National Park: Cruise through the mesmerizing Milford Sound, one of the country's most iconic fjords. Witness cascading waterfalls, sheer cliffs, and wildlife in their natural habitat.
+            <br>
+            Cappadocia's Surreal Landscapes: Explore the otherworldly landscapes of Cappadocia, with its fairy chimneys, cave dwellings, and breathtaking hot air balloon rides.      
+            <br>
+            Ephesus Archeological Site: Step back in time at the ancient city of Ephesus, home to well-preserved ruins, including the Library of Celsus and the Temple of Artemis. </h4><br>
+            <p>Price: $859.99</p>
+    </div>
+</div>
+</section>
+
+   <footer>
+    <p>&copy; 2023 WX, World Xplore. All rights reserved.</p>
+</footer>
+</body>
+</html>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const packageToursButton = document.querySelector(".package-tours-button");
+    const packageToursContent = document.querySelector(".package-tours-content");
+
+    packageToursButton.addEventListener("click", function() {
+        packageToursContent.classList.toggle("hidden");
+    });
+});
+</script>
