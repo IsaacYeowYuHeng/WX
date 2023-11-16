@@ -20,6 +20,7 @@ nav:hover {
 img,
 logo {
     width: 100%;
+    width: 300px;
     height: auto;
     transition: transform 0.3s;
 }
